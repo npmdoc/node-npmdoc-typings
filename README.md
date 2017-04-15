@@ -1,11 +1,13 @@
-# api documentation for  [typings (v2.1.0)](https://github.com/typings/typings)  [![npm package](https://img.shields.io/npm/v/npmdoc-typings.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-typings) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-typings.svg)](https://travis-ci.org/npmdoc/node-npmdoc-typings)
+# api documentation for  [typings (v2.1.1)](https://github.com/typings/typings)  [![npm package](https://img.shields.io/npm/v/npmdoc-typings.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-typings) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-typings.svg)](https://travis-ci.org/npmdoc/node-npmdoc-typings)
 #### The TypeScript Definition Manager
 
-[![NPM](https://nodei.co/npm/typings.png?downloads=true)](https://www.npmjs.com/package/typings)
+[![NPM](https://nodei.co/npm/typings.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/typings)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-typings/build/screen-capture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-typings_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-typings/build..beta..travis-ci.org/apidoc.html)
+[![apidoc](https://npmdoc.github.io/node-npmdoc-typings/build/screenCapture.buildCi.browser.apidoc.html.png)](https://npmdoc.github.io/node-npmdoc-typings/build/apidoc.html)
 
-![package-listing](https://npmdoc.github.io/node-npmdoc-typings/build/screen-capture.npmPackageListing.svg)
+![npmPackageListing](https://npmdoc.github.io/node-npmdoc-typings/build/screenCapture.npmPackageListing.svg)
+
+![npmPackageDependencyTree](https://npmdoc.github.io/node-npmdoc-typings/build/screenCapture.npmPackageDependencyTree.svg)
 
 
 
@@ -16,7 +18,6 @@
 {
     "author": {
         "name": "Blake Embrey",
-        "email": "hello@blakeembrey.com",
         "url": "http://blakeembrey.me"
     },
     "bin": {
@@ -29,7 +30,7 @@
         "archy": "^1.0.0",
         "bluebird": "^3.1.1",
         "chalk": "^1.0.0",
-        "cli-truncate": "^0.2.1",
+        "cli-truncate": "^1.0.0",
         "columnify": "^1.5.2",
         "elegant-spinner": "^1.0.1",
         "has-unicode": "^2.0.1",
@@ -37,8 +38,8 @@
         "log-update": "^1.0.2",
         "minimist": "^1.2.0",
         "promise-finally": "^3.0.0",
-        "typings-core": "^2.2.0",
-        "update-notifier": "^1.0.0",
+        "typings-core": "^2.3.3",
+        "update-notifier": "^2.0.0",
         "wordwrap": "^1.0.0",
         "xtend": "^4.0.1"
     },
@@ -47,21 +48,21 @@
         "dependency-check": "^2.5.1",
         "nock": "^9.0.0",
         "rimraf": "^2.5.2",
-        "ts-node": "^1.0.0",
-        "tslint": "^4.0.2",
-        "tslint-config-standard": "^2.0.0",
+        "ts-node": "^3.0.0",
+        "tslint": "^5.0.0",
+        "tslint-config-standard": "^5.0.0",
         "typescript": "^2.1.4"
     },
     "directories": {},
     "dist": {
-        "shasum": "9cdbe0cd1626ab61b379e06ba4a3910d1d791006",
-        "tarball": "https://registry.npmjs.org/typings/-/typings-2.1.0.tgz"
+        "shasum": "bacc69d255970a478e09f76c7f689975d535a78a",
+        "tarball": "https://registry.npmjs.org/typings/-/typings-2.1.1.tgz"
     },
     "files": [
         "dist/",
         "typings.json"
     ],
-    "gitHead": "afc99a2e285fd2331dd06bf5d81e51821fa11426",
+    "gitHead": "ce773a3f6ac37fd48d7acc498ed54232bd5ef6ca",
     "homepage": "https://github.com/typings/typings",
     "keywords": [
         "typings",
@@ -76,13 +77,11 @@
     "main": "dist/bin.js",
     "maintainers": [
         {
-            "name": "blakeembrey",
-            "email": "hello@blakeembrey.com"
+            "name": "blakeembrey"
         }
     ],
     "name": "typings",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/typings/typings.git"
@@ -95,7 +94,7 @@
         "prepublish": "node -e \"require('typings-core').install({ cwd: process.cwd() })\" && npm run build",
         "test": "npm run lint && npm run build && npm run dependency-check"
     },
-    "version": "2.1.0"
+    "version": "2.1.1"
 }
 ```
 
