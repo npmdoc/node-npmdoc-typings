@@ -1,9 +1,14 @@
-# api documentation for  [typings (v2.1.1)](https://github.com/typings/typings)  [![npm package](https://img.shields.io/npm/v/npmdoc-typings.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-typings) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-typings.svg)](https://travis-ci.org/npmdoc/node-npmdoc-typings)
+# npmdoc-typings
+
+#### api documentation for  [typings (v2.1.1)](https://github.com/typings/typings)  [![npm package](https://img.shields.io/npm/v/npmdoc-typings.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-typings) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-typings.svg)](https://travis-ci.org/npmdoc/node-npmdoc-typings)
+
 #### The TypeScript Definition Manager
 
 [![NPM](https://nodei.co/npm/typings.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/typings)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-typings/build/screenCapture.buildCi.browser.apidoc.html.png)](https://npmdoc.github.io/node-npmdoc-typings/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-typings/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-typings/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-typings/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-typings/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-typings/build/screenCapture.npmPackageListing.svg)
 
@@ -97,16 +102,6 @@
     "version": "2.1.1"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module typings](#apidoc.module.typings)
-
-
-
-# <a name="apidoc.module.typings"></a>[module typings](#apidoc.module.typings)
 
 
 
